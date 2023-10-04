@@ -1,0 +1,74 @@
+@media screen and (max-width:1000px){
+    header nav {
+        padding: 1rem 2rem;
+    }
+    header nav .logo{
+        width: 18rem;
+        height: 4rem;
+    }
+    header nav .nav-items{
+        width: 55rem;
+    }
+    .socials-container .share-article-container, .socials-container .news-letter-signup-container{
+        padding: 2rem;
+    }
+    .socials-container .share-article-container h3, .socials-container .news-letter-signup-container h3{
+        font-size: 1.6rem;
+        margin-bottom: 1.5rem;
+    }
+    .socials-container .share-article-container img{
+        width: 7rem;
+    }
+    .socials-container .news-letter-signup-container img{
+        width: 12rem;
+    }
+}
+@media screen and (max-width:800px){
+    header nav .burger-m,header nav .logo-m, header nav .subscribe-text{
+    display: block;
+    }
+    header nav .logo, header nav .nav-items{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+        padding: 2rem;
+    }
+    .content{
+        width: 100%;
+    }
+    .socials-container{
+        margin: 0;
+        width: 100%;
+    }
+    .socials-container .share-article-container, .socials-container .news-letter-signup-container{
+        width: 100%;
+    }
+    
+    .socials-container .share-article-container .social-icons-col{
+        display: none;
+    }
+    .socials-container .share-article-container .social-icons-row{
+        width: 20rem;
+        display: inline;
+    }
+}
+
+@media screen and (max-width:400px){
+    header nav .burger-m{
+        width: 4rem;
+    }
+    header nav .logo-m{
+        width: 12rem;
+        }
+        header nav .subscribe-text{
+            width: 7rem;
+        }
+        .content h1{
+            font-size: 2rem;
+        }
+        .content .info>p, .content .info>h3{
+            font-size: 1.5rem;
+            line-height: 3rem;
+        }
+}
