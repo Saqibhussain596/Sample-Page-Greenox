@@ -52,6 +52,73 @@
         width: 20rem;
         display: inline;
     }
+
+    /*ad styles*/
+.sticky-ad{
+    height: 7rem;
+}
+.ad-content .lysol-logo{
+    width: 4rem;
+}
+.ad-content .flower-image, .ad-content .mango-image{
+    width: 3.5rem;
+    transform: translate(-50px, 40px);
+}
+.ad-content .coconut-image{
+    width: 5rem;
+    transform: translate(120px, 5px);
+}
+.ad-content .red-lysol{
+    width: 4.5rem;
+    transform: translate(-50px, 20px);
+}
+.ad-content .blue-lysol{
+    width: 4rem;
+    transform: translate(-50px, 20px);
+}
+.ad-content p{
+    color: white;
+    font-size: 1.5rem;
+    width: 20rem;
+}
+.ad-content .ad-text-h{
+    left: 250px;
+}
+.ad-content .shop-now-image{
+    width: 5rem;
+    border-radius: 3px;
+}
+
+.sticky-ad:hover{
+    height: 14rem;  
+}
+
+.sticky-ad:hover .ad-content .flower-image{
+    transform: scale(2) translate(-20px, 40px);
+}
+.sticky-ad:hover .ad-content .mango-image{
+    transform: scale(1.5) translate(-20px, 50px);
+}
+.sticky-ad:hover .ad-content .red-lysol{
+    transform: scale(1.8) translate(0px,20px);
+}
+.sticky-ad:hover .ad-content .blue-lysol{  
+    transform: scale(1.6) translate(20px,25px);
+}
+.sticky-ad:hover .ad-content .coconut-image{
+    transform: scale(1.6) translate(130px,30px);
+}
+
+.sticky-ad:hover .ad-content .ad-text-h{
+    opacity: 1;
+    left: 300px;
+}
+.sticky-ad:hover .shop-now-image{
+    transform: scale(1.2) translate(-120px, 50px);
+}
+
+
+
 }
 
 @media screen and (max-width:400px){
@@ -71,4 +138,75 @@
             font-size: 1.5rem;
             line-height: 3rem;
         }
+
+/*ad styles*/
+.sticky-ad{
+    height: 7rem;
+}
+.ad-content{
+    width: 90%;
+}
+.ad-content .lysol-logo{
+    width: 3rem;
+    transform: translate(-15px, 0px);
+
+}
+.ad-content .flower-image, .ad-content .mango-image{
+    width: 3.5rem;
+    transform: translate(-80px, 160px);
+}
+.ad-content .coconut-image{
+    width: 5rem;
+    transform: translate(80px, -55px);
+}
+.ad-content .red-lysol{
+    width: 4.5rem;
+    transform: translate(-10px, 50px);
+}
+.ad-content .blue-lysol{
+    width: 4rem;
+    transform: translate(40px, -40px);
+}
+.ad-content p{
+    color: white;
+    font-size: 1rem;
+    width: 20rem;
+}
+.ad-content .ad-text-h{
+    width: fit-content;
+    font-size: 1rem;
+    left: 150px;
+}
+.ad-content .shop-now-image{
+    width: 5rem;
+    border-radius: 3px;
+}
+
+.sticky-ad:hover .ad-content .lysol-logo{
+    transform: scale(1.4) translate(-5px,-20px);
+}
+
+.sticky-ad:hover .ad-content .flower-image{
+    transform: scale(1.5) translate(-55px, 135px);
+}
+.sticky-ad:hover .ad-content .mango-image{
+    transform: scale(1.5) translate(-55px, 140px);
+}
+.sticky-ad:hover .ad-content .red-lysol{
+    transform: scale(1.5) translate(10px,50px);
+}
+.sticky-ad:hover .ad-content .blue-lysol{  
+    transform: scale(1.6) translate(55px,-5px);
+}
+.sticky-ad:hover .ad-content .coconut-image{
+    transform: scale(1.6) translate(80px, -10px);
+    ;
+}
+
+.sticky-ad:hover .ad-content .ad-text-h{
+    left: 200px;
+}
+.sticky-ad:hover .shop-now-image{
+    transform: scale(1.1) translate(-10px, 50px);
+}
 }
