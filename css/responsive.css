@@ -54,7 +54,7 @@
     }
 
     /*ad styles*/
-.sticky-ad{
+.container-ad{
     height: 7rem;
 }
 .ad-content .lysol-logo{
@@ -89,31 +89,31 @@
     border-radius: 3px;
 }
 
-.sticky-ad:hover{
+.container-ad:hover{
     height: 14rem;  
 }
 
-.sticky-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content .flower-image{
     transform: scale(2) translate(-20px, 40px);
 }
-.sticky-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content .mango-image{
     transform: scale(1.5) translate(-20px, 50px);
 }
-.sticky-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content .red-lysol{
     transform: scale(1.8) translate(0px,20px);
 }
-.sticky-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content .blue-lysol{  
     transform: scale(1.6) translate(20px,25px);
 }
-.sticky-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content .coconut-image{
     transform: scale(1.6) translate(130px,30px);
 }
 
-.sticky-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content .ad-text-h{
     opacity: 1;
     left: 300px;
 }
-.sticky-ad:hover .shop-now-image{
+.container-ad:hover .shop-now-image{
     transform: scale(1.2) translate(-120px, 50px);
 }
 
@@ -140,7 +140,7 @@
         }
 
 /*ad styles*/
-.sticky-ad{
+.container-ad{
     height: 7rem;
 }
 .ad-content{
@@ -182,31 +182,31 @@
     border-radius: 3px;
 }
 
-.sticky-ad:hover .ad-content .lysol-logo{
+.container-ad:hover .ad-content .lysol-logo{
     transform: scale(1.4) translate(-5px,-20px);
 }
 
-.sticky-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content .flower-image{
     transform: scale(1.5) translate(-55px, 135px);
 }
-.sticky-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content .mango-image{
     transform: scale(1.5) translate(-55px, 140px);
 }
-.sticky-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content .red-lysol{
     transform: scale(1.5) translate(10px,50px);
 }
-.sticky-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content .blue-lysol{  
     transform: scale(1.6) translate(55px,-5px);
 }
-.sticky-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content .coconut-image{
     transform: scale(1.6) translate(80px, -10px);
     ;
 }
 
-.sticky-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content .ad-text-h{
     left: 200px;
 }
-.sticky-ad:hover .shop-now-image{
+.container-ad:hover .shop-now-image{
     transform: scale(1.1) translate(-10px, 50px);
 }
 }

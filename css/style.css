@@ -106,17 +106,18 @@ main{
 }
 
 /*ad styles*/
-.sticky-ad {
+.container-ad {
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 999; 
+    z-index: 999;
     background-color: rgb(146, 26, 25);
     height: 6rem;
     transition: 0.8s ease;
     display: flex;
     justify-content: center;
 }
+
 
 .ad-content {
     width: fit-content;
@@ -203,11 +204,11 @@ main{
     transition: 0.8s ease-out;
 }
 
-.sticky-ad:hover{
+.container-ad:hover{
     height: 18rem;
     
 }
-.sticky-ad:hover .ad-content::before {
+.container-ad:hover .ad-content::before {
 
     width: 120%;
     height: 120%;
@@ -215,34 +216,34 @@ main{
     -webkit-mask-image: linear-gradient(to top left, transparent 72%, black 45%);
 }
 
-.sticky-ad:hover .ad-content .lysol-logo{
+.container-ad:hover .ad-content .lysol-logo{
     transform: scale(1.4) translateY(-20px);
 }
-.sticky-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content .flower-image{
     
     transform: scale(2) translate(-20px, 35px);
 }
-.sticky-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content .mango-image{
     transform: scale(1.5) translate(-20px, 45px);
 }
-.sticky-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content .red-lysol{
     transform: scale(1.8) translate(0px,20px);
 }
-.sticky-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content .blue-lysol{  
     transform: scale(1.6) translate(25px,20px);
 }
-.sticky-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content .coconut-image{
     transform: scale(1.6) translate(30px,45px);
 }
 
-.sticky-ad:hover .ad-content .ad-text{
+.container-ad:hover .ad-content .ad-text{
     top: 100%;
 }
-.sticky-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content .ad-text-h{
     opacity: 1;
     left: 390px;
 }
-.sticky-ad:hover .shop-now-image{
+.container-ad:hover .shop-now-image{
     transform: scale(1.2) translate(-150px, 50px);
 }
 /*footer sytles*/
