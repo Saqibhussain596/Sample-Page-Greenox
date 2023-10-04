@@ -7,6 +7,10 @@
 html{
     font-family: 'Fjalla One', sans-serif;
     font-size: 65%;
+    background-color: white;
+}
+html::-webkit-scrollbar{
+    display: none;
 }
 
 /*navbar styles*/
