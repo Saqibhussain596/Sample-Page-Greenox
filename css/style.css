@@ -119,7 +119,7 @@ main{
 }
 
 
-.ad-content {
+.ad-content-container {
     width: fit-content;
     padding: 20px;
     margin: 0 2rem;
@@ -135,7 +135,7 @@ main{
     align-items: center;
 }
 
-.ad-content::before {
+.ad-content-container::before {
     content: '';
     position: absolute;
     top: 0;
@@ -149,48 +149,48 @@ main{
     -webkit-mask-image: linear-gradient(to top left, transparent 50%, black 45%);
     border-top-left-radius: 1rem;
 }
-.ad-content img{
+.ad-content-container img{
     position: relative;
     width: 2rem;
     z-index: 999;
 }
-.ad-content .lysol-logo{
+.ad-content-container .lysol-logo{
     width: 6rem;
     transition: 0.8s ease-out;
 }
-.ad-content .flower-image, .ad-content .mango-image{
+.ad-content-container .flower-image, .ad-content-container .mango-image{
     width: 4.5rem;
     bottom: 25px;
     left:20px;
     transition: 0.8s ease-out;
 }
-.ad-content .coconut-image{
+.ad-content-container .coconut-image{
     width: 6.5rem;
     bottom: 15px;
     right: 10px;
     transition: 0.8s ease-out;
 }
-.ad-content .red-lysol{
+.ad-content-container .red-lysol{
     width: 6rem;
     transition: 0.8s ease-out;
 }
-.ad-content .blue-lysol{
+.ad-content-container .blue-lysol{
     width: 5.3rem;
     transition: 0.8s ease-out;
 }
-.ad-content p{
+.ad-content-container p{
     color: white;
     font-size: 1.5rem;
     width: 20rem;
     /*position: relative;*/
     /*transition: 0.8s ease-out;*/
 }
-.ad-content .ad-text{
+.ad-content-container .ad-text{
     position: relative;
     top: 0;
     transition: 0.8s ease-out;
 }
-.ad-content .ad-text-h{
+.ad-content-container .ad-text-h{
     position: absolute;
     left: 350px;
     opacity: 0;
@@ -198,7 +198,7 @@ main{
     font-size: 1.8rem;
 }
 
-.ad-content .shop-now-image{
+.ad-content-container .shop-now-image{
     width: 6rem;
     border-radius: 3px;
     transition: 0.8s ease-out;
@@ -208,7 +208,7 @@ main{
     height: 18rem;
     
 }
-.container-ad:hover .ad-content::before {
+.container-ad:hover .ad-content-container::before {
 
     width: 120%;
     height: 120%;
@@ -216,30 +216,30 @@ main{
     -webkit-mask-image: linear-gradient(to top left, transparent 72%, black 45%);
 }
 
-.container-ad:hover .ad-content .lysol-logo{
+.container-ad:hover .ad-content-container .lysol-logo{
     transform: scale(1.4) translateY(-20px);
 }
-.container-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content-container .flower-image{
     
     transform: scale(2) translate(-20px, 35px);
 }
-.container-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content-container .mango-image{
     transform: scale(1.5) translate(-20px, 45px);
 }
-.container-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content-container .red-lysol{
     transform: scale(1.8) translate(0px,20px);
 }
-.container-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content-container .blue-lysol{  
     transform: scale(1.6) translate(25px,20px);
 }
-.container-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content-container .coconut-image{
     transform: scale(1.6) translate(30px,45px);
 }
 
-.container-ad:hover .ad-content .ad-text{
+.container-ad:hover .ad-content-container .ad-text{
     top: 100%;
 }
-.container-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content-container .ad-text-h{
     opacity: 1;
     left: 390px;
 }

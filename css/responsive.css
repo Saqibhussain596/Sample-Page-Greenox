@@ -57,34 +57,34 @@
 .container-ad{
     height: 7rem;
 }
-.ad-content .lysol-logo{
+.ad-content-container .lysol-logo{
     width: 4rem;
 }
-.ad-content .flower-image, .ad-content .mango-image{
+.ad-content-container .flower-image, .ad-content-container .mango-image{
     width: 3.5rem;
     transform: translate(-50px, 40px);
 }
-.ad-content .coconut-image{
+.ad-content-container .coconut-image{
     width: 5rem;
     transform: translate(120px, 5px);
 }
-.ad-content .red-lysol{
+.ad-content-container .red-lysol{
     width: 4.5rem;
     transform: translate(-50px, 20px);
 }
-.ad-content .blue-lysol{
+.ad-content-container .blue-lysol{
     width: 4rem;
     transform: translate(-50px, 20px);
 }
-.ad-content p{
+.ad-content-container p{
     color: white;
     font-size: 1.5rem;
     width: 20rem;
 }
-.ad-content .ad-text-h{
+.ad-content-container .ad-text-h{
     left: 250px;
 }
-.ad-content .shop-now-image{
+.ad-content-container .shop-now-image{
     width: 5rem;
     border-radius: 3px;
 }
@@ -93,23 +93,23 @@
     height: 14rem;  
 }
 
-.container-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content-container .flower-image{
     transform: scale(2) translate(-20px, 40px);
 }
-.container-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content-container .mango-image{
     transform: scale(1.5) translate(-20px, 50px);
 }
-.container-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content-container .red-lysol{
     transform: scale(1.8) translate(0px,20px);
 }
-.container-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content-container .blue-lysol{  
     transform: scale(1.6) translate(20px,25px);
 }
-.container-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content-container .coconut-image{
     transform: scale(1.6) translate(130px,30px);
 }
 
-.container-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content-container .ad-text-h{
     opacity: 1;
     left: 300px;
 }
@@ -143,67 +143,67 @@
 .container-ad{
     height: 7rem;
 }
-.ad-content{
+.ad-content-container{
     width: 90%;
 }
-.ad-content .lysol-logo{
+.ad-content-container .lysol-logo{
     width: 3rem;
     transform: translate(-15px, 0px);
 
 }
-.ad-content .flower-image, .ad-content .mango-image{
+.ad-content-container .flower-image, .ad-content-container .mango-image{
     width: 3.5rem;
     transform: translate(-80px, 160px);
 }
-.ad-content .coconut-image{
+.ad-content-container .coconut-image{
     width: 5rem;
     transform: translate(80px, -55px);
 }
-.ad-content .red-lysol{
+.ad-content-container .red-lysol{
     width: 4.5rem;
     transform: translate(-10px, 50px);
 }
-.ad-content .blue-lysol{
+.ad-content-container .blue-lysol{
     width: 4rem;
     transform: translate(40px, -40px);
 }
-.ad-content p{
+.ad-content-container p{
     color: white;
     font-size: 1rem;
     width: 20rem;
 }
-.ad-content .ad-text-h{
+.ad-content-container .ad-text-h{
     width: fit-content;
     font-size: 1rem;
     left: 150px;
 }
-.ad-content .shop-now-image{
+.ad-content-container .shop-now-image{
     width: 5rem;
     border-radius: 3px;
 }
 
-.container-ad:hover .ad-content .lysol-logo{
+.container-ad:hover .ad-content-container .lysol-logo{
     transform: scale(1.4) translate(-5px,-20px);
 }
 
-.container-ad:hover .ad-content .flower-image{
+.container-ad:hover .ad-content-container .flower-image{
     transform: scale(1.5) translate(-55px, 135px);
 }
-.container-ad:hover .ad-content .mango-image{
+.container-ad:hover .ad-content-container .mango-image{
     transform: scale(1.5) translate(-55px, 140px);
 }
-.container-ad:hover .ad-content .red-lysol{
+.container-ad:hover .ad-content-container .red-lysol{
     transform: scale(1.5) translate(10px,50px);
 }
-.container-ad:hover .ad-content .blue-lysol{  
+.container-ad:hover .ad-content-container .blue-lysol{  
     transform: scale(1.6) translate(55px,-5px);
 }
-.container-ad:hover .ad-content .coconut-image{
+.container-ad:hover .ad-content-container .coconut-image{
     transform: scale(1.6) translate(80px, -10px);
     ;
 }
 
-.container-ad:hover .ad-content .ad-text-h{
+.container-ad:hover .ad-content-container .ad-text-h{
     left: 200px;
 }
 .container-ad:hover .shop-now-image{
